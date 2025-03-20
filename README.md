@@ -11,12 +11,19 @@ En esta práctica se implementarán los métodos de Euler y Heun para la soluci�
 
 ## Objetivos específicos
 1)Implementar y resolver el sistema Lotka-Volterra mediante distintos métodos numéricos, incluyendo Euler, Heun y diferentes solvers de MATLAB, para analizar su comportamiento en el tiempo.
+
 2)Comparar la estabilidad y precisión de los solvers numéricos, diferenciando entre métodos para sistemas rígidos (stiff solvers) y no rígidos (nonstiff solvers), con el fin de evaluar su idoneidad para la simulación del modelo.
+
 3)Utilizar Simulink para la simulación del sistema, aplicando distintos parámetros y condiciones iniciales para validar los resultados obtenidos con los métodos numéricos tradicionales.
+
 4)Determinar los puntos de equilibrio del sistema mediante el análisis de la matriz Jacobiana y evaluar la estabilidad local de estos puntos.
+
 5)Aplicar el modelo de Lotka-Volterra a la interacción entre células CD4+ y el virus del VIH, adaptando los parámetros del sistema para representar la dinámica de infección y evaluar su evolución en el tiempo.
+
 6)Realizar un ajuste de datos a partir de series temporales, incluyendo la generación de datos en bruto (raw data), suavizados (smooth data) y ajustados (fit data), para optimizar la representación matemática del sistema.
+
 7)Visualizar las trayectorias del sistema en el plano de fase y en el dominio del tiempo, mediante la representación gráfica de las soluciones obtenidas con los diferentes métodos numéricos.
+
 8)Evaluar el impacto de los parámetros en la dinámica del sistema, analizando cómo la variación de valores como α, β, δ y γ afecta la evolución de la población presa-depredador y su estabilidad.
 
 ## Docente
@@ -26,10 +33,15 @@ Posgrado en Ciencias de la Ingeniería [PCI] y Departamento de Ingeniería Eléc
 
 ## Lecturas
 [1] Paul. A. Valle, Syllabus de Biomatemáticas para la asignatura de Gemelos Digitales, Tecnológico Nacional de México/IT Tijuana, Tijuana, B.C., México, 2025. Permalink: https://www.dropbox.com/s/6yf9afxzih9y458/Biomatematicas.pdf
+
 [2] A. Garfinkel, J. Shevtsov, and Y. Guo, Modeling Life: The Mathematics of Biological Systems, 1st ed. Cham, Switzerland: Springer, 2017, ch. 1, sec. 1.1–1.3, pp. 1–18.
+
 [3] F. L. Biafore and C. E. D’Attellis, "Exact Linearisation and Control of a HIV-1 Predator-Prey Model," in Proceedings of the 27th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), Shanghai, China, Sep. 2005, pp. 2367-2370.
+
 [5] J. D. Murray, Mathematical Biology: I. An Introduction, 3rd ed. New York, NY, USA: Springer, 2002, ch. 2, pp. 25–60.
+
 [5] L. Edelstein-Keshet, Mathematical Models in Biology, Philadelphia, PA, USA: SIAM, 2005, ch. 3, sec. 3.1–3.4, pp. 75–110.
+
 [6] H. G. Othmer, F. R. Adler, and M. A. Lewis, Applied Mathematical Models in Human Physiology, Philadelphia, PA, USA: SIAM, 2007, ch. 5, pp. 150–185.
 
-[2] González‐Ayón, M. A., Sañudo‐Barajas, J. A., Picos‐Corrales, L. A., & Licea‐Claverie, A. (2015). PNVCL‐PEGMA nanohydrogels with tailored transition temperature for controlled delivery of 5‐fluorouracil. Journal of Polymer Science Part A: Polymer Chemistry, 53(22), 2662-2672. doi: https://doi.org/10.1002/pola.27766
+
