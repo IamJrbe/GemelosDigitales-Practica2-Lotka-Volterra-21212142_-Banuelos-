@@ -10,21 +10,21 @@ Ingeniería Biomédica, Departamento de Ingeniería Eléctrica y Electrónica, T
 En esta práctica se implementarán los métodos de Euler y Heun para la solución de ecuaciones diferenciales ordinarias de primer orden, evaluando su precisión en distintos escenarios. En particular, se aplicarán estos métodos al modelo de Lotka-Volterra, que describe la dinámica de poblaciones biológicas interdependientes, como las interacciones entre el virus y las células en el contexto del VIH. A continuación, se calculará la tasa de decrecimiento viral a partir del tiempo de vida media del virus, permitiendo estimar la dinámica de la infección y su impacto en el sistema inmunológico. Además, se ajustará el modelo de farmacocinética de primer orden para simular la concentración de antirretrovirales en el cuerpo, utilizando algoritmos de regresión no lineal para estimar las tasas de liberación y eliminación del fármaco. Finalmente, se diseñarán protocolos de tratamiento antirretroviral basados en modelos matemáticos, ilustrando la evolución de la concentración del fármaco en el compartimento sanguíneo, considerando su absorción y eliminación tras la administración oral. Esta práctica integra herramientas computacionales y matemáticas clave para el modelado de la infección por VIH, contribuyendo al desarrollo de estrategias terapéuticas personalizadas en el tratamiento del virus.
 
 ## Objetivos específicos
-1)Implementar y resolver el sistema Lotka-Volterra mediante distintos métodos numéricos, incluyendo Euler, Heun y diferentes solvers de MATLAB, para analizar su comportamiento en el tiempo.
+1.Implementar y resolver el sistema Lotka-Volterra mediante distintos métodos numéricos, incluyendo Euler, Heun y diferentes solvers de MATLAB, para analizar su comportamiento en el tiempo.
 
-2)Comparar la estabilidad y precisión de los solvers numéricos, diferenciando entre métodos para sistemas rígidos (stiff solvers) y no rígidos (nonstiff solvers), con el fin de evaluar su idoneidad para la simulación del modelo.
+2.Comparar la estabilidad y precisión de los solvers numéricos, diferenciando entre métodos para sistemas rígidos (stiff solvers) y no rígidos (nonstiff solvers), con el fin de evaluar su idoneidad para la simulación del modelo.
 
-3)Utilizar Simulink para la simulación del sistema, aplicando distintos parámetros y condiciones iniciales para validar los resultados obtenidos con los métodos numéricos tradicionales.
+3.Utilizar Simulink para la simulación del sistema, aplicando distintos parámetros y condiciones iniciales para validar los resultados obtenidos con los métodos numéricos tradicionales.
 
-4)Determinar los puntos de equilibrio del sistema mediante el análisis de la matriz Jacobiana y evaluar la estabilidad local de estos puntos.
+4.Determinar los puntos de equilibrio del sistema mediante el análisis de la matriz Jacobiana y evaluar la estabilidad local de estos puntos.
 
-5)Aplicar el modelo de Lotka-Volterra a la interacción entre células CD4+ y el virus del VIH, adaptando los parámetros del sistema para representar la dinámica de infección y evaluar su evolución en el tiempo.
+5.Aplicar el modelo de Lotka-Volterra a la interacción entre células CD4+ y el virus del VIH, adaptando los parámetros del sistema para representar la dinámica de infección y evaluar su evolución en el tiempo.
 
-6)Realizar un ajuste de datos a partir de series temporales, incluyendo la generación de datos en bruto (raw data), suavizados (smooth data) y ajustados (fit data), para optimizar la representación matemática del sistema.
+6.Realizar un ajuste de datos a partir de series temporales, incluyendo la generación de datos en bruto (raw data), suavizados (smooth data) y ajustados (fit data), para optimizar la representación matemática del sistema.
 
-7)Visualizar las trayectorias del sistema en el plano de fase y en el dominio del tiempo, mediante la representación gráfica de las soluciones obtenidas con los diferentes métodos numéricos.
+7.Visualizar las trayectorias del sistema en el plano de fase y en el dominio del tiempo, mediante la representación gráfica de las soluciones obtenidas con los diferentes métodos numéricos.
 
-8)Evaluar el impacto de los parámetros en la dinámica del sistema, analizando cómo la variación de valores como α, β, δ y γ afecta la evolución de la población presa-depredador y su estabilidad.
+8.Evaluar el impacto de los parámetros en la dinámica del sistema, analizando cómo la variación de valores como α, β, δ y γ afecta la evolución de la población presa-depredador y su estabilidad.
 
 ## Docente
 Dr. Paul A. Valle
